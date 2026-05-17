@@ -1,0 +1,101 @@
+.latest-best-container {
+    background-color: black;
+    justify-content: center;
+    /* justify-items: center; */
+    width: 100%;
+    height: fit-content;
+}
+
+.bestseller {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 0.25rem;
+}
+
+.bestseller-pic {
+    flex: 1;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    object-fit: cover;
+    overflow: hidden;
+    width: 20%;
+    aspect-ratio: 1 / 1.1;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.latest-pic {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    aspect-ratio: 1.5 / 1;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.bestseller-flex img:hover {
+  opacity: .3;
+}
+
+.latest-pic-row img:hover {
+  opacity: .3;
+}
+
+.test{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+}
+
+.best-label {
+    color: black;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+.latest-label {
+    color: black;
+    padding-top: 1.5rem;
+}
+
+.latest-bestseller-box {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.bestseller-flex {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.left-right {
+    color: black;
+    background-color: transparent;
+
+}
+
+.latest {
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.best-latest-slider {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.latest-pic-row {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.best-link {
+    margin: 0;
+    padding: 0;
+}

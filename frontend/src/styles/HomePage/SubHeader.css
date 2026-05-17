@@ -1,0 +1,77 @@
+.subheader {
+  width: 100%;
+  height: 3rem;
+  background-color: white;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.subheader-icon {
+  background-color: transparent;
+  color: black;
+  padding-left: 2rem;
+}
+
+.subheader-item {
+  color: black;
+  font-size: 0.92rem;
+  padding-left: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sub-iconed-item {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  display: flex;
+  height: 1.5rem;
+  padding-right: 2rem;
+}
+
+.divider {
+  border-left: 2px solid black;
+  margin-top: 0.4rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.subheader-link {
+  text-decoration: none;
+}
+
+.subheader-link :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.subcategory-label {
+  color: black;
+  font-size: 0.8rem;
+}
+
+.drawer-item {
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px;
+  margin-left: 15px;
+}
+
+.drawer-header {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.drawer-dropdown-link {
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.drawer-dropdown-link :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
